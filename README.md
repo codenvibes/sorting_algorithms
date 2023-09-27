@@ -422,7 +422,7 @@ Here is a quick tip to help you test your sorting algorithms with big sets of ra
 ### 0. Bubble sort
 `mandatory`
 
-File: [0-bubble_sort.c](), [0-O]()
+File: [0-bubble_sort.c]() , [0-O]()
 </summary>
 
 <a href="https://www.youtube.com/watch?v=lyZQPjUT5B4">Bubble-sort with Hungarian ("Csángó") folk dance</a>
@@ -498,7 +498,7 @@ alex@/tmp/sort$
 ### 1. Insertion sort
 `mandatory`
 
-File: [1-insertion_sort_list.c](), [1-O]()
+File: [1-insertion_sort_list.c]() , [1-O]()
 </summary>
 
 <a href="https://www.youtube.com/watch?v=ROalU379l3U&t=3s">Insert-sort with Romanian folk dance</a>
@@ -611,7 +611,7 @@ alex@/tmp/sort$
 ### 2. Selection sort
 `mandatory`
 
-File: [2-selection_sort.c](), [2-O]()
+File: [2-selection_sort.c]() , [2-O]()
 </summary>
 
 <a href="https://www.youtube.com/watch?v=Ns4TPTC8whw">Select-sort with Gypsy folk dance</a>
@@ -675,7 +675,7 @@ alex@/tmp/sort$
 ### 3. Quick sort
 `mandatory`
 
-File: [3-quick_sort.c](), [3-O]()
+File: [3-quick_sort.c]() , [3-O]()
 </summary>
 
 <a href="https://www.youtube.com/watch?v=ywWBy6J5gz8">Quick-sort with Hungarian (Küküllőmenti legényes) folk dance</a>
@@ -738,10 +738,10 @@ alex@/tmp/sort$
 <details>
 <summary>
 
-### 4. 
+### 4. Shell sort - Knuth Sequence
 `#advanced`
 
-File: []()
+File: [100-shell_sort.c]()
 </summary>
 
 
@@ -750,10 +750,10 @@ File: []()
 <details>
 <summary>
 
-### 5. 
+### 5. Cocktail shaker sort
 `#advanced`
 
-File: []()
+File: [101-cocktail_sort_list.c]() , [101-O]()
 </summary>
 
 
@@ -762,10 +762,10 @@ File: []()
 <details>
 <summary>
 
-### 6. 
+### 6. Counting sort
 `#advanced`
 
-File: []()
+File: [102-counting_sort.c]() , [102-O]()
 </summary>
 
 
@@ -774,10 +774,10 @@ File: []()
 <details>
 <summary>
 
-### 7. 
+### 7. Merge sort
 `#advanced`
 
-File: []()
+File: [103-merge_sort.c]() , [103-O]()
 </summary>
 
 
@@ -786,10 +786,10 @@ File: []()
 <details>
 <summary>
 
-### 8. 
+### 8. Heap sort
 `#advanced`
 
-File: []()
+File: [104-heap_sort.c]() , [104-O]()
 </summary>
 
 
@@ -798,10 +798,10 @@ File: []()
 <details>
 <summary>
 
-### 9. 
+### 9. Radix sort
 `#advanced`
 
-File: []()
+File: [105-radix_sort.c]()
 </summary>
 
 
@@ -810,10 +810,10 @@ File: []()
 <details>
 <summary>
 
-### 10. 
+### 10. Bitonic sort
 `#advanced`
 
-File: []()
+File: [106-bitonic_sort.c]() , [106-O]()
 </summary>
 
 
@@ -822,10 +822,10 @@ File: []()
 <details>
 <summary>
 
-### 11. 
+### 11. Quick Sort - Hoare Partition scheme
 `#advanced`
 
-File: []()
+File: [107-quick_sort_hoare.c]() , [107-O]()
 </summary>
 
 
@@ -834,10 +834,10 @@ File: []()
 <details>
 <summary>
 
-### 12. 
+### 12. Dealer
 `#advanced`
 
-File: []()
+File: [1000-sort_deck.c]() , [deck.h]()
 </summary>
 
 
