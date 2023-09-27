@@ -33,7 +33,7 @@
 
 # Requirements
 <details>
-<summary>General</summary>
+<summary><h3>General</h3></summary>
 
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -51,7 +51,7 @@
 </details>
 
 <details>
-<summary>GitHub</summary>
+<summary><h3>GitHub</h3></summary>
 
 **There should be one project repository per group. If you clone/fork/whatever a project repository with the same name before the second deadline, you risk a 0% score.**
 </details>
