@@ -4,7 +4,6 @@
  * Auth: codenvibes
  */
 
-
 /**
  * swap_nodes - Swaps two nodes in a doubly linked list.
  *
