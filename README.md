@@ -160,259 +160,691 @@ Here is a quick tip to help you test your sorting algorithms with big sets of ra
 <details>
 <summary><h3>Question 0</h3></summary>
 
-
+What is the time complexity of this function / algorithm?
+```py
+def func(n):
+    a=5
+    b=6
+    c=10
+    for i in range(n):
+        for j in range(n):
+            x = i * i
+            y = j * j
+            z = i * j
+    for k in range(n):
+        w = a*k + 45
+        v = b*b
+    d = 33
+```
+- [ ] O(n)
+- [ ] O(2^n)
+- [x] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 1</h3></summary>
 
-
+What is the best case time complexity searching for an element in a hash table with the implementation you used during the previous Hash Table C project (chaining)?
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 2</h3></summary>
 
-
+What is the time complexity of setting value at index n in an unsorted Python 3 list?
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 3</h3></summary>
 
-
+What is the time complexity of removing the nth element of a singly linked list? (Assuming you have a pointer to the node to remove)
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 4</h3></summary>
 
-
+What is the time complexity of best case deletion from a hash table with the implementation you used during the previous Hash Table C project (chaining)?
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 5</h3></summary>
 
+What is the time complexity of this function / algorithm?
+```c
+void f(int n)
+{
+     int i;
+     int j;
 
+     for (i = 0; i < n; i++)
+     {
+          for (j = i + 1; j < n; j++)
+          {
+               printf("[%d] [%d]\n", i, j);
+          }
+     }
+}
+```
+- [ ] O(n)
+- [ ] O(2^n)
+- [x] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 6</h3></summary>
 
-
+What is the time complexity of setting a value at index n in an unsorted array?
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 7</h3></summary>
 
-
+What is the time complexity of searching for an element in a singly linked list of size n?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 8</h3></summary>
 
-
+What is the time complexity of searching for an element in a doubly linked list of size n?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 9</h3></summary>
 
-
+What is the time complexity accessing the nth element in an unsorted Python 3 list?
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 10</h3></summary>
 
-
+What is the time complexity of this function / algorithm?
+```PHP 
+foreach($numbers as $number)
+{
+    echo $number;
+}
+```
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 11</h3></summary>
 
-
+What is the time complexity of worst case deletion from a hash table with the implementation you used during the previous Hash Table C project (chaining)?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 12</h3></summary>
 
-
+What is the time complexity of “popping” an element in a queue if you are given a pointer to both the head and the tail of the queue?
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(log(n))
+- [ ] O(nlog(n))
+- [ ] O(n!)
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 13</h3></summary>
 
-
+What is the time complexity of searching for an element in an unsorted Python 3 list of size n?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 14</h3></summary>
 
-
+What is the time complexity of accessing the nth element of a singly linked list?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 15</h3></summary>
 
-
+What is the time complexity of the “push” operation onto a stack?
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 16</h3></summary>
 
+What is the time complexity of this function / algorithm?
+```c
+void f(int n)
+{
+    int i;
 
+    for (i = 0; i < n; i += 98)
+    {
+        printf("[%d]\n", i);
+    }
+}
+```
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 17</h3></summary>
 
-
+What is the time complexity of setting the value of the nth element in a singly linked list? (Assuming you have a pointer to the node to set the value of)
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 18</h3></summary>
 
+What is the time complexity of this function / algorithm?
+```c
+void f(int n)
+{
+    int i;
 
+    for (i = 0; i < n; i++)
+    {
+        printf("[%d]\n", i);
+    }
+}
+```
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 19</h3></summary>
 
-
+What is the time complexity of inserting after the nth element of a singly linked list? (Assuming you have a pointer to the node to insert)
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 20</h3></summary>
 
-
+What is the time complexity of accessing the nth element on an unsorted array?
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 21</h3></summary>
 
-
+Assuming you have a pointer to the node to insert, what is the time complexity of inserting after the nth element of a doubly linked list?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 22</h3></summary>
 
-
+What is the best case time complexity of insertion in a hash table with the implementation you used during the previous Hash Table C project (chaining)?
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 23</h3></summary>
 
-
+What is the time complexity of accessing the nth element of a doubly linked list?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 24</h3></summary>
 
-
+What is the time complexity of removing at index n in an unsorted array?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 25</h3></summary>
 
-
+What is the time complexity of the “pop” operation onto a stack?
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 26</h3></summary>
 
+What is the time complexity of this function / algorithm?
+```c
+void f(unsigned int n)
+{
+    int i;
 
+    for (i = 1; i < n; i = i * 2)
+    {
+        printf("[%d]\n", i);
+    }
+}
+```
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [x] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 27</h3></summary>
 
+What is the time complexity of this function / algorithm?
+```C++
+int Fibonacci(int number)
+{
+    if (number <= 1) return number;
 
+    return Fibonacci(number - 2) + Fibonacci(number - 1);
+}
+```
+- [ ] O(n)
+- [x] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 28</h3></summary>
 
+What is the time complexity of this function / algorithm?
+```c
+void f(unsigned int n)
+{
+    int i;
+    int j;
 
+    for (i = 0; i < n; i++)
+    {
+        for (j = 1; j < n; j = j * 2)
+        {
+            printf("[%d] [%d]\n", i, j);
+        }
+    }
+}
+```
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [x] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 29</h3></summary>
 
-
+What is the time complexity of inserting into an unsorted Python 3 list at index n?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 30</h3></summary>
 
-
+Assuming you have a pointer to the node to remove, what is the time complexity of removing the nth element of a doubly linked list?
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 31</h3></summary>
 
-
+What is the time complexity of searching for an element in a stack of size n?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 32</h3></summary>
 
-
+What is the worst case time complexity of insertion in a hash table with the implementation you used during the previous Hash Table C project (chaining)?
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 33</h3></summary>
 
+What is the time complexity of this function / algorithm?
+```c
+void f(int n)
+{
+    int i;
+    int j;
 
+    for (i = 0; i < n; i++)
+    {
+        if (i % 2 == 0)
+        {
+            for (j = 1; j < n; j = j * 2)
+            {
+                printf("[%d] [%d]\n", i, j);
+            }
+        }
+        else
+        {
+            for (j = 0; j < n; j = j + 2)
+            {
+                printf("[%d] [%d]\n", i, j);
+            }
+        }
+    }
+}
+```
+- [ ] O(n)
+- [ ] O(2^n)
+- [x] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 34</h3></summary>
 
-
+Assuming you have a pointer to the node to set the value of, what is the time complexity of setting the value of the nth element in a doubly linked list?
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 35</h3></summary>
 
-
+What is the time complexity of searching for an element in an unsorted array of size n?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 36</h3></summary>
 
-
+What is the time complexity of searching for an element in a queue of size n if you are given a pointer to both the head and the tail of the queue?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 37</h3></summary>
 
-
+What is the time complexity of this function / algorithm?
+```JavaScript 
+var factorial = function(n) {
+    if(n == 0) {
+        return 1
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+```
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 38</h3></summary>
 
-
+What is the time complexity of removing at index n from an unsorted Python 3 list?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 39</h3></summary>
 
-
+What is the time complexity of “pushing” an element into a queue if you are given a pointer to both the head and the tail of the queue?
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 40</h3></summary>
 
-
+What is the time complexity of this function / algorithm?
+```
+void f(int n)
+{
+    printf("n = %d\n", n);
+}
+```
+- [ ] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [x] O(1)
 </details>
 
 <details>
 <summary><h3>Question 41</h3></summary>
 
-
+What is the time complexity of searching for an element - worst case - in a hash table with the implementation you used during the previous Hash Table C project (chaining)?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 <details>
 <summary><h3>Question 42</h3></summary>
 
-
+What is the time complexity of inserting at index n on an unsorted array?
+- [x] O(n)
+- [ ] O(2^n)
+- [ ] O(n^2)
+- [ ] O(log(n))
+- [ ] O(n!)
+- [ ] O(nlog(n))
+- [ ] O(1)
 </details>
 
 # Tasks
@@ -744,7 +1176,49 @@ alex@/tmp/sort$
 File: [100-shell_sort.c]()
 </summary>
 
+Write a function that sorts an array of integers in ascending order using the [Shell sort](https://en.wikipedia.org/wiki/Shellsort) algorithm, using the `Knuth sequence`
 
+- Prototype: `void shell_sort(int *array, size_t size);`
+- You must use the following sequence of intervals (a.k.a the Knuth sequence):
+    - `n+1 = n * 3 + 1`
+    - `1, 4, 13, 40, 121, ...`
+- You’re expected to print the `array` each time you decrease the interval (See example below).
+
+**No big O notations of the time complexity of the Shell sort (Knuth sequence) algorithm needed - as the complexity is dependent on the size of array and gap**
+
+```c
+alex@/tmp/sort$ cat 100-main.c
+#include <stdio.h>
+#include <stdlib.h>
+#include "sort.h"
+
+/**
+ * main - Entry point
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+    int array[] = {19, 48, 99, 71, 13, 52, 96, 73, 86, 7};
+    size_t n = sizeof(array) / sizeof(array[0]);
+
+    print_array(array, n);
+    printf("\n");
+    shell_sort(array, n);
+    printf("\n");
+    print_array(array, n);
+    return (0);
+}
+alex@/tmp/sort$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 100-main.c 100-shell_sort.c print_array.c -o shell
+alex@/tmp/sort$ ./shell
+19, 48, 99, 71, 13, 52, 96, 73, 86, 7
+
+13, 7, 96, 71, 19, 48, 99, 73, 86, 52
+7, 13, 19, 48, 52, 71, 73, 86, 96, 99
+
+7, 13, 19, 48, 52, 71, 73, 86, 96, 99
+alex@/tmp/sort$
+```
 </details>
 
 <details>
